@@ -138,7 +138,7 @@ def main(_):
         "C:/Users/Marina_Chekulina/Desktop/lab3_final_mppr_14_11/checkpoint_dir/model.ckpt")
       print("File has created")
 
-    for i in range(100):
+    for i in range(1000):
       batch = mnist.train.next_batch(50)
       if i % 10 == 0:
         train_accuracy = accuracy.eval(feed_dict={
